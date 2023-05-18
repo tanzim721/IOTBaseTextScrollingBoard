@@ -40,10 +40,3 @@ Route::prefix('profiles')->group(function(){
 }); 
 
 
-Route::prefix('layoutsUser')->group(function(){
-	Route::get('/index', 'Backend\StudentController@index')->name('layoutsUser.index');
-	Route::get('/view', 'Backend\StudentController@view')->name('layoutsUser.view');
-	Route::get('/add','Backend\StudentController@add')->name('layoutsUser.add');
-	Route::post('/store','Backend\StudentController@store')->name('layoutsUser.store');
- 
-}); 
