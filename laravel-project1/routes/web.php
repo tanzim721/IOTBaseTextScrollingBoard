@@ -21,7 +21,7 @@ Route::get('/','Frontend\FrontendController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
- 
+
 Route::prefix('users')->group(function(){
 	Route::get('/view','Backend\UserController@view')->name('users.view');
 	Route::get('/add','Backend\UserController@add')->name('users.add');

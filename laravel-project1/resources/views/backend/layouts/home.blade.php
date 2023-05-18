@@ -19,7 +19,7 @@
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-4">
+          {{-- <div class="col-lg-4">
             <div class="small-box bg-info"> 
               <div class="inner text-center">
                 <h3>{{ \App\User::all()->count() }}</h3>
@@ -54,7 +54,7 @@
               </div>
               <a href="{{route('layoutsUser.view')}}" class="small-box-footer">View<i class="fas fa-arrow-circle-right"></i></a>
             </div>
-          </div>         
+          </div>          --}}
         </div>
         
       </div>

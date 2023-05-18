@@ -18,7 +18,7 @@
             <a href="#" class="nav-link"> 
               <i class="nav-icon fas fa-copy"></i> 
               <p>
-                Manage Students
+                Manage Admin
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -26,7 +26,7 @@
               <li class="nav-item">
                 <a href="{{route('users.view')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>View Student</p>
+                  <p>View Admin</p>
                 </a>
               </li>
 
