@@ -161,7 +161,7 @@
                 <div class="">
                     @if (Route::has('password.request'))
                     <div class="d-flex links pass">
-                        Don't have an account? <a href="{{route('users.view')}}">Sign Up</a>
+                        Don't have an account? <a href="{{ route('register') }}">Sign Up</a>
                     </div>
                         <button class="btn btn-link pass"  >
                             <a href="{{route('profiles.password.view')}}">{{ __('Forgot Your Password?') }}</a>

@@ -88,9 +88,9 @@
                         <div class="form-group col-12">
                           <label for="usertype">User Role</label>
                           <select name="usertype" id="usertype" class="form-control">
-                            <option value="">Select Role</option>
+                            {{-- <option value="">Select Role</option> --}}
                             <option value="Admin">Admin</option>
-                            <option value="User">User</option>
+                            {{-- <option value="User">User</option> --}}
                           </select>
                         </div>
                         <div class="form-group col-12">
@@ -117,7 +117,7 @@
                         </div> -->
                         <div class="d-grid gap-2 col-2 mx-auto">
                           
-                          <button class="btn btn-primary button" type="button"><input type="submit" name="" value="submit" class="btn btn-primary"></button>
+                          <button class="btn btn-primary button" type="button"><input type="submit" name="" value="Submit" class="btn btn-primary"></button>
                         </div>
                       </div>
                     </form>          
