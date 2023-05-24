@@ -38,5 +38,9 @@ Route::prefix('profiles')->group(function(){
 	Route::get('password/view','Backend\UserController@passwordView')->name('profiles.password.view');
 	Route::get('password/update','Backend\UserController@passwordUpdate')->name('profiles.password.update');
 }); 
+Route::prefix('visitor')->group(function(){
+	Route::GET('/view', 'VisitorController@VisitorIndex')->name('visitor');
+	
+});
 
 
