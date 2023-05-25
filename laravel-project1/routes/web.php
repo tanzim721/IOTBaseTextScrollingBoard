@@ -40,7 +40,6 @@ Route::prefix('profiles')->group(function(){
 }); 
 Route::prefix('visitor')->group(function(){
 	Route::GET('/view', 'VisitorController@VisitorIndex')->name('visitor');
-	
 });
 
 
